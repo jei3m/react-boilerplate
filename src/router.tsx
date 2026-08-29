@@ -12,7 +12,6 @@ function Router() {
     <BrowserRouter>
       <Routes>
         <Route
-          index={true}
           path="/"
           element={<Navigate to="/users" replace />}
         />
